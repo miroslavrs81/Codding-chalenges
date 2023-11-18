@@ -4,15 +4,15 @@ class Person {
         this.name = name;
         this.birthDate = birthDate;
     }
-    displayName(){
+    displayName() {
     console.log("Hi, my name is " + this.name);
     }
-    getAge(){
+    getAge() {
        const years = 1000*60*60*24*365.25;
        let inMiliseconds = new Date() - new Date(this.birthDate);
         return Math.floor(inMiliseconds / years);       
     }
-    getAgeInFutures([date]){
+    getAgeInFutures([date]) {
         const years = 1000*60*60*24*365.25;
         let inMiliseconds = new Date([date]) - new Date(this.birthDate);
          return Math.floor(inMiliseconds / years);

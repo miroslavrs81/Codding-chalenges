@@ -24,7 +24,6 @@ function palindromeII(str){
 
 console.log(palindromeII("racecar"));
 
-
 // III for loop
 
 function palindromeIII(str){
@@ -39,5 +38,3 @@ for (let i = clean.length-1; i >= 0; i--) {
 }
 
 console.log(palindromeIII('Ana voli Milovana'));
-
-

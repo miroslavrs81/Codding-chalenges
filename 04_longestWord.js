@@ -5,8 +5,8 @@ function longestWord(str) {
     let text = " is the longest word and has length: "
     let words = str.split(" ");
 
-    for(let word of words){
-        if(word.length > longest.length){
+    for(let word of words) {
+        if(word.length > longest.length) {
             longest = word;
         }
     }

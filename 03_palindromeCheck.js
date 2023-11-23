@@ -10,15 +10,14 @@ function palindromeI(str) {
 
 // II regEx and toLowercase
 
-function palindromeII(str){
+function palindromeII(str) {
     // regEx to replace all non-letter \W, including '_'
     const reg = /[\W_]/g;
 
     let smallStr = str.toLowerCase().replace(reg, "");
 
     let reversed = smallStr.split("").reverse().join("");
-    if(reversed === smallStr) 
-    return true;
+    if(reversed === smallStr) return true;
     return false;
 }
 

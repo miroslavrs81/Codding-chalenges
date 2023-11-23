@@ -1,4 +1,3 @@
-
 function longestWord(str) {
 
     let longest = "";

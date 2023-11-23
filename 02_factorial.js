@@ -1,5 +1,4 @@
 // I way for loop
-
 const factorialFor = num => {
    
     let result = 1;
@@ -12,7 +11,6 @@ const factorialFor = num => {
 console.log(factorialFor(5));
 
 // II way for loop 2
-
 const factorialForRew = num => {
    
     let result = 1;
@@ -25,7 +23,6 @@ const factorialForRew = num => {
 console.log(factorialForRew(5));
 
 // III way recursion
-
 const factorialRecursion = num => {
    
   if(num === 0 || num === 1) return 1;

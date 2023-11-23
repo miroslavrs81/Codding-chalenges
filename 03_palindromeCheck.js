@@ -24,7 +24,6 @@ function palindromeII(str) {
 console.log(palindromeII("racecar"));
 
 // III for loop
-
 function palindromeIII(str){
 
 let reversed = '';

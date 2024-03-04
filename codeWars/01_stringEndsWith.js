@@ -16,3 +16,10 @@ function solution(str, ending){
   }
 
   console.log(solution('abc', 'bc'));
+
+  function solution(str, ending) {
+    if (str.startsWith(ending)) return true;
+    return false;
+  }
+
+  console.log(solution('abc', 'a'));
